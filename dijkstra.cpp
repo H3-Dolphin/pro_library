@@ -1,7 +1,7 @@
 struct edge {ll to,cost;};
 typedef pair<ll,ll> P;
 vector<vector<edge>> G(100010),GG(100010);
-vector<ll> d(100010);
+vector<ll> d(100010);   // 変えるなら n+1
 
 void dijkstra(ll s){
     // 小さい順に取り出す
